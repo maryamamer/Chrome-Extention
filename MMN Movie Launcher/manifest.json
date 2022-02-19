@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+
+  "name": "MMN Movie Launcher",
+  "description": "Quick launch Movies",
+  "version": "1.0.0",
+  "icons": { "128": "Logo_128.png" },
+  "browser_action": {
+    "default_icon": "New icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": ["activeTab","storage"]
+}

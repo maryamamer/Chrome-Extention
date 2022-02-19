@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>MMN Movies Launcher</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css" />
+  <style>
+  
+
+    html,
+    body {
+      font-family: "Open Sans", sans-serif;
+      font-size: 14px;
+      margin: 0;
+      min-height: 180px;
+      padding: 0;
+      width: 384px;
+    }
+
+    h1 {
+      font-family: "Menlo", monospace;
+      font-size: 22px;
+      font-weight: 400;
+      margin: 0;
+      color: #2f5876;
+    }
+
+    a:link,
+    a:visited {
+      color: #000000;
+      outline: 0;
+      text-decoration: none;
+    }
+
+    img {
+      width: 30px;
+    }
+
+    .modal-header {
+      align-items: center;
+      border-bottom: 0.5px solid #dadada;
+    }
+
+    .modal-content {
+      padding: 0 22px;
+    }
+
+    .modal-icons {
+      border-top: 0.5px solid #dadada;
+      height: 50px;
+      width: 100%;
+    }
+
+    .logo {
+      padding: 16px;
+    }
+
+    .logo-icon {
+      vertical-align: text-bottom;
+      margin-right: 12px;
+    }
+
+    .version {
+      color: #444;
+      font-size: 18px;
+    }
+
+    .flex-container {
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 22px;
+    }
+
+    .flex {
+      opacity: 1;
+      transition: opacity 0.2s ease-in-out;
+      width: 120px;
+    }
+
+    .flex:hover {
+      opacity: 0.4;
+    }
+
+    .flex .fa {
+      font-size: 40px;
+      color: #2f5876;
+    }
+
+    .iconEG {
+      content: url("./unnamed_preview_rev_1.png");
+      height: 60px;
+      width: 60px;
+    }
+    .iconNet {
+      content: url("./netflixlogo.0.0.jpg");
+      height: 40px;
+      width: 40px;
+    }
+    .iconYouTube {
+      content: url("./YouTube-resizeimage.png");
+      height: 40px;
+      width: 60px;
+    }
+    .iconShahid {
+      content: url("./Shahid-resizeimage.png");
+      height: 40px;
+      width: 60px;
+    }
+    .iconWatchit {
+      content: url("./Webp.net-resizeimage.png");
+      height: 40px;
+      width: 60px;
+    }
+  </style>
+
+</head>
+
+<body>
+  <div class="modal-header">
+    <h1 class="logo">
+      <img class="logo-icon" src="images/Logo.png" /> MMN Movie Launcher
+      <span class="version">(1.0.0)</span>
+    </h1>
+  </div>
+  <div class="modal-content">
+    <p>Easily Access Movies Content</p>
+  </div>
+  <div class="modal-icons">
+    <div class="flex-container">
+      <div class="flex">
+        <a href="https://tool.egybest.ltd/trending/today" target="_blank">
+          <i class="iconEG"></i>
+        </a>
+      </div>
+      <div class="flex">
+        <a href="https://www.netflix.com/eg-en/" target="_blank">
+          <i class="iconNet"></i>        
+        </a>
+      </div>
+      <div class="flex">
+        <a href="https://www.youtube.com/" target="_blank">
+          <i class="iconYouTube" style="margin-right: 10%;"></i>
+        </a>
+      </div>
+      <div class="flex">
+        <a href="https://shahid.mbc.net/ar/widgets/subscription?gclid=Cj0KCQiA-qGNBhD3ARIsAO_o7ylzAyETULjzQ7LNYeX5LwDrQmn50Hw5Mac8g5Z6FHh2cJdxjXCnliAaAvItEALw_wcB&gclsrc=aw.ds"
+          target="_blank">
+          <i class="iconShahid"></i>
+        </a>
+      </div>
+      <div class="flex">
+        <a href="https://www.watchit.com/" target="_blank">
+          <i class="iconWatchit"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
